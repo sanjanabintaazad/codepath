@@ -9,8 +9,8 @@ Time spent: 17 hours spent in total
 ### 1. CSRF
 
 - [ ] Summary: 
-  - Vulnerability types:CSRF
-  - Tested in version:4.2
+  - Vulnerability types: CSRF
+  - Tested in version: 4.2
   - Fixed in version: 4.2.23
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 1](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/1st%20vulnerability.gif)
@@ -19,53 +19,56 @@ Time spent: 17 hours spent in total
   - [Link 1](https://core.trac.wordpress.org/changeset/44842)
   - [Link 2](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
   
-### 2. (Required) Vulnerability Name or ID
+### 2. SOME (CVE-2016-4566)
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+  - Vulnerability types: Pupload Same Origin Method Execution (SOME)
+  - Tested in version: 4.2
+  - Fixed in version: 4.2.8
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 2](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/2nd%20vulnerability.gif)
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [Link 1](https://github.com/WordPress/WordPress/commit/c33e975f46a18f5ad611cf7e7c24398948cecef8)
+  - [Link 2](https://gist.github.com/cure53/09a81530a44f6b8173f545accc9ed07e)
 
-### 3. (Required) Vulnerability Name or ID
+### 3. XSS (CVE-2015-3440)
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+  - Vulnerability types: Unauthenticated Stored Cross-Site Scripting (XSS)
+  - Tested in version: 4.2
+  - Fixed in version: 4.2.1
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 3](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/3rd%20vulnerability.gif)
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [Link 1](https://www.exploit-db.com/exploits/36844)
+  - [Link 2](https://klikki.fi/wordpress-4-2-core-stored-xss/)
 
-### 4. (Optional) Vulnerability Name or ID
+### 4. XSS (CVE-2015-5734)
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+  - Vulnerability types: Legacy Theme Preview Cross-Site Scripting (XSS)
+  - Tested in version: 4.2
+  - Fixed in version: 4.2.4
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 4](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/4th%20vulnerability.gif)
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [Link 1](https://core.trac.wordpress.org/changeset/33549)
+  - [Link 2](https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html)
 
-### 5. (Optional) Vulnerability Name or ID
+### 5. XSS (CVE-2016-1564)
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
+  - Vulnerability types: Authenticated Cross-Site Scripting (XSS)
+  - Tested in version: 4.2
+  - Fixed in version: 4.2.6
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 5](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/5th%20vulnerability.gif)
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+  - [Link 1](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87) 
 
 ## Assets
 
