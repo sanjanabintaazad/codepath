@@ -57,7 +57,7 @@ Time spent: 17 hours spent in total
   - Go back to the comment and reply using the same user name and email.
   - Insert a malicious href link that sends an alert
   - The comment needs to be long enough so that it takes up the whole page.
-  - when 
+  - After posting the comment, moving the mouse above the page will trigger the alert
 - [ ] Affected source code:
   - [Link 1](https://www.exploit-db.com/exploits/36844)
   - [Link 2](https://klikki.fi/wordpress-4-2-core-stored-xss/)
@@ -71,6 +71,12 @@ Time spent: 17 hours spent in total
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 4](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/4th%20vulnerability.gif)
 - [ ] Steps to recreate: 
+  - Log in as Administrator
+  - Go to the Hello World post's comment section
+  - Write the following maicilious code of a link that sends alert when scrolled above hello world in the page
+ 
+      `<a href='/wp-admin/' title="XSS" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(2)//'>Hello world</a>`
+  - Post the malicious comment and watch the alert being triggered.
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/changeset/33549)
   - [Link 2](https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html)
