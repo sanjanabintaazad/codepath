@@ -15,8 +15,8 @@ Time spent: 17 hours spent in total
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 1](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/1st%20vulnerability.gif)
 - [ ] Steps to recreate: 
-  -hkkh
-  -sjs
+  - hkkh
+  - sjs
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/changeset/44842)
   - [Link 2](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
