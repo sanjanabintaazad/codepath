@@ -25,7 +25,7 @@ Time spent: 17 hours spent in total
   - Tested in version:
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
-<img src="2nd vulnerability.gif" alt="XSS1">
+ ![Walkthrough exploit 2](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/2nd%20vulnerability.gif)
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -37,7 +37,7 @@ Time spent: 17 hours spent in total
   - Tested in version:
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
-<img src="3rd vulnerability.gif" alt="XSS2">
+ ![Walkthrough exploit 3](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/3rd%20vulnerability.gif)
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -49,7 +49,7 @@ Time spent: 17 hours spent in total
   - Tested in version:
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
-<img src="4th vulnerability.gif" alt="XSS3">
+ ![Walkthrough exploit 4](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/4th%20vulnerability.gif)
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -61,7 +61,7 @@ Time spent: 17 hours spent in total
   - Tested in version:
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
-<img src="5th vulnerability.gif" alt="SOME">
+ ![Walkthrough exploit 5](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/5th%20vulnerability.gif)
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
