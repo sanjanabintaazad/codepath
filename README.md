@@ -24,7 +24,8 @@ Time spent: 17 hours spent in total
   - Vulnerability types:
   - Tested in version:
   - Fixed in version: 
-- [ ] GIF Walkthrough: <img src="2nd vulnerability.gif" alt="XSS1">
+- [ ] GIF Walkthrough: 
+<img src="2nd vulnerability.gif" alt="XSS1">
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -36,6 +37,7 @@ Time spent: 17 hours spent in total
   - Tested in version:
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
+<img src="3rd vulnerability.gif" alt="XSS2">
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -47,6 +49,7 @@ Time spent: 17 hours spent in total
   - Tested in version:
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
+<img src="4th vulnerability.gif" alt="XSS3">
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
@@ -58,6 +61,7 @@ Time spent: 17 hours spent in total
   - Tested in version:
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
+<img src="5th vulnerability.gif" alt="SOME">
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
