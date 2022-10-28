@@ -24,7 +24,7 @@ Time spent: 17 hours spent in total
   - Vulnerability types:
   - Tested in version:
   - Fixed in version: 
-- [ ] GIF Walkthrough: 
+- [ ] GIF Walkthrough: <img src="2nd vulnerability.gif" alt="XSS1">
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
