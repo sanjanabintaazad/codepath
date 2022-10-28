@@ -13,7 +13,7 @@ Time spent: 17 hours spent in total
   - Tested in version:
   - Fixed in version: 
 - [ ] GIF Walkthrough: 
-<img src="1st vulnerability.gif" alt="CSRF">
+ ![Walkthrough exploit 1](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/1st%20vulnerability.gif)
 - [ ] Steps to recreate: 
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
