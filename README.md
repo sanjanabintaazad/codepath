@@ -50,6 +50,14 @@ Time spent: 17 hours spent in total
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 3](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/3rd%20vulnerability.gif)
 - [ ] Steps to recreate: 
+  - Go to "Hello world!" under RECENT POSTS
+  - Reply to a comment by typing name, email and comment and see that it is waiting for the admin's approval after being post
+  - Log in as Administrator
+  - Approve the user and logout
+  - Go back to the comment and reply using the same user name and email.
+  - Insert a malicious href link that sends an alert
+  - The comment needs to be long enough so that it takes up the whole page.
+  - when 
 - [ ] Affected source code:
   - [Link 1](https://www.exploit-db.com/exploits/36844)
   - [Link 2](https://klikki.fi/wordpress-4-2-core-stored-xss/)
