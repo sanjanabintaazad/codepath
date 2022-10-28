@@ -76,7 +76,6 @@ Time spent: 17 hours spent in total
 
 ## Assets
 
-List any additional assets, such as scripts or files
 - 1st Vulnerability(Malicious Form):
 
 https://github.com/sanjanabintaazad/hello-world/blob/main/index.html
@@ -90,11 +89,8 @@ https://github.com/sanjanabintaazad/hello-world/blob/main/index.html
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
-GIFs created with  ...
-<!-- Recommended GIF Tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIFs created with
+[ScreenToGif](https://www.screentogif.com/)
 
 ## Notes
 
