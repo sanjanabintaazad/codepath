@@ -18,7 +18,7 @@ Time spent: 17 hours spent in total
   - Log in as Administrator
   - Post a comment to check it is taking the admin's comment
   - Submit a malicious form that goes into /wp-comments-post.php hosted on github
-  - The comment "I made a comment" will be posted after going to the github link which is submitting the form
+  - The comment "I made a comment" will be posted after going to the github link which is submitting the form (go below to Assets to see the malicious form)
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/changeset/44842)
   - [Link 2](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
