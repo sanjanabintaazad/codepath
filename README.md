@@ -128,7 +128,7 @@ GIFs created with
 
 ## Notes
 
-The Correct installation of wordpress was a challenging task. As windows do not have Git I had to install it separately. I had a different IP address after pinging the [wpdistillery.vm](http://wpdistillery.vm/). That raised an issue with my host machine not being able to access the [wpdistillery.vm](http://wpdistillery.vm/) page. But it was running absolutely fine in Kali. After a long run and error trial, finally I was able to change IP address and run the wordpress in my host machine. Finding the vulnerabilities was a difficult task. I had to go through a lot of resources to understand the exploits. Once I figured out the concept and tricks I was able to find out 8 exploits. It was fun to do the extras.
+The Correct installation of wordpress was a challenging task. As windows do not have Git I had to install it separately. I had a different IP address after pinging the [wpdistillery.vm](http://wpdistillery.vm/). That raised an issue with my host machine not being able to access the [wpdistillery.vm](http://wpdistillery.vm/) page. But it was running absolutely fine in Kali. After a long run and error trial, finally I was able to change IP address and run the wordpress in my host machine. Finding the vulnerabilities was a difficult task. I had to go through a lot of resources to understand the exploits. Once I figured out the concepts and tricks I was able to find out 8 exploits. It was fun to do the extras.
 
 ## License
 
