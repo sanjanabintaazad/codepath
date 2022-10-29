@@ -16,7 +16,7 @@ Time spent: 26 hours spent in total
  ![Walkthrough exploit 1](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/1st%20vulnerability.gif)
 - [x] Steps to recreate: 
   - Log in as Administrator
-  - Post a comment to check it is taking the admin's comment
+  - Post a comment to check that it is taking the admin's comment
   - Submit a malicious form that goes into /wp-comments-post.php hosted on github
   - The comment "I made a comment" will be posted after going to the github link which is submitting the form (go below to Assets to see the malicious form)
 - [x] Affected source code:
