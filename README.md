@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pen Testing
 
-Time spent: 17 hours spent in total
+Time spent: 26 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -20,8 +20,8 @@ Time spent: 17 hours spent in total
   - Submit a malicious form that goes into /wp-comments-post.php hosted on github
   - The comment "I made a comment" will be posted after going to the github link which is submitting the form (go below to Assets to see the malicious form)
 - [x] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/changeset/44842)
-  - [Link 2](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
+  - [Core Trac WordPress](https://core.trac.wordpress.org/changeset/44842)
+  - [WordPress Github](https://github.com/WordPress/WordPress/commit/0292de60ec78c5a44956765189403654fe4d080b)
   
 ### 2. SOME (CVE-2016-4566)
 
@@ -38,8 +38,8 @@ Time spent: 17 hours spent in total
   - Click the button
   - It will ask us to download something
 - [x] Affected source code:
-  - [Link 1](https://github.com/WordPress/WordPress/commit/c33e975f46a18f5ad611cf7e7c24398948cecef8)
-  - [Link 2](https://gist.github.com/cure53/09a81530a44f6b8173f545accc9ed07e)
+  - [WordPress Github](https://github.com/WordPress/WordPress/commit/c33e975f46a18f5ad611cf7e7c24398948cecef8)
+  - [Gist Github](https://gist.github.com/cure53/09a81530a44f6b8173f545accc9ed07e)
 
 ### 3. XSS (CVE-2015-3440)
 
@@ -54,13 +54,13 @@ Time spent: 17 hours spent in total
   - Reply to a comment by typing name, email and comment and see that it is waiting for the admin's approval after being post
   - Log in as Administrator
   - Approve the user and logout
-  - Go back to the comment and reply using the same user name and email.
-  - Insert a malicious href link that sends an alert
-  - The comment needs to be long enough so that it takes up the whole page.
+  - Go back to the comment and reply using the same user name and email
+  - Insert a malicious href link that sends an alert (go below to Assets to see the malicious href link's format)
+  - The comment needs to be long enough so that it takes up the whole page
   - After posting the comment, moving the mouse above the page will trigger the alert
 - [x] Affected source code:
-  - [Link 1](https://www.exploit-db.com/exploits/36844)
-  - [Link 2](https://klikki.fi/wordpress-4-2-core-stored-xss/)
+  - [Exploit-db 36844](https://www.exploit-db.com/exploits/36844)
+  - [Klikki's Exploit Code](https://klikki.fi/wordpress-4-2-core-stored-xss/)
 
 ### 4. XSS (CVE-2015-5734)
 
@@ -78,8 +78,8 @@ Time spent: 17 hours spent in total
       `<a href='/wp-admin/' title="XSS" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(2)//'>Hello world</a>`
   - Post the malicious comment and watch the alert being triggered.
 - [x] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/changeset/33549)
-  - [Link 2](https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html)
+  - [Core Trac WordPress](https://core.trac.wordpress.org/changeset/33549)
+  - [Sucuri Blog](https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html)
 
 ### 5. XSS (CVE-2016-1564)
 
@@ -98,7 +98,7 @@ Time spent: 17 hours spent in total
   - Post the comment and it will trigger the alert
   - Everytime the page gets load, the alert will pop up
 - [x] Affected source code:
-  - [Link 1](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87) 
+  - [WordPress Github](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87) 
 
 ## Assets
 
