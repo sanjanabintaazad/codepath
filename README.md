@@ -90,6 +90,13 @@ Time spent: 17 hours spent in total
 - [ ] GIF Walkthrough: 
  ![Walkthrough exploit 5](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/5th%20vulnerability.gif)
 - [ ] Steps to recreate: 
+  - Log in as Administrator
+  - Go to the Hello World post's comment section
+  - Write the following maicilious URL followed by an onload alert
+  
+    `http://wpdistillery.vm/<svg onload=alert(1)>`
+  - Post the comment and it will trigger the alert
+  - Everytime the page gets load, the alert will pop up
 - [ ] Affected source code:
   - [Link 1](https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87) 
 
