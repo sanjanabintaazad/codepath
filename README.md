@@ -17,43 +17,43 @@ The six possible exploits are:
 
 ## Blue
 
-Vulnerability #1: SQL Injection (SQLi)
+Vulnerability 1: SQL Injection (SQLi)
 
 Description:
 
 <img src="blue_SQLI_vulnerability.gif">
 
 
-Vulnerability #2: Session Hijacking
+Vulnerability 2: Session Hijacking
 
 Description:
 
-<img src="blue-vuln1.gif">
+<img src="blue_SessionHijacking_vulnerability.gif">
 
 
 ## Green
 
-Vulnerability #1: Cross-Site Scripting (XSS)
+Vulnerability 1: Cross-Site Scripting (XSS)
 
 Description:
 
-<img src="green-vuln1.gif">
+<img src="green_XSS_vulnerability.gif">
 
 
-Vulnerability #2: Username Enumeration
+Vulnerability 2: Username Enumeration
 
 Description:
 
-<img src="green-vuln1.gif">
+<img src="green_UsernameEnumeration_vulnerability.gif">
 
 
 ## Red
 
-Vulnerability #1: Insecure Direct Object Reference (IDOR)
+Vulnerability 1: Insecure Direct Object Reference (IDOR)
 
 Description:
 
-<img src="red-vuln1.gif">
+<img src="red_IDOR_vulnerability.gif">
 
 
 ## Notes
