@@ -21,7 +21,7 @@ Vulnerability #1: SQL Injection (SQLi)
 
 Description:
 
-<img src="blue-vuln1.gif">
+<img src="blue_SQLI_vulnerability.gif">
 
 
 Vulnerability #2: Session Hijacking
@@ -40,7 +40,7 @@ Description:
 <img src="green-vuln1.gif">
 
 
-Vulnerability #1: Username Enumeration
+Vulnerability #2: Username Enumeration
 
 Description:
 
