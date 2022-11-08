@@ -25,7 +25,7 @@ The six possible exploits are:
 <img src="blue_SQLI_vulnerability.gif">
 
 
-### Vulnerability 2: Session Hijacking
+#### Vulnerability 2: Session Hijacking
 
 - [x] Description:
 
@@ -35,7 +35,7 @@ The six possible exploits are:
 
 ## Green
 
-### Vulnerability 1: Cross-Site Scripting (XSS)
+#### Vulnerability 1: Cross-Site Scripting (XSS)
 
 - [x] Description:
 
@@ -43,7 +43,7 @@ The six possible exploits are:
 <img src="green_XSS_vulnerability.gif">
 
 
-### Vulnerability 2: Username Enumeration
+#### Vulnerability 2: Username Enumeration
 
 - [x] Description:
 
@@ -53,7 +53,7 @@ The six possible exploits are:
 
 ## Red
 
-### Vulnerability 1: Insecure Direct Object Reference (IDOR)
+#### Vulnerability 1: Insecure Direct Object Reference (IDOR)
 
 - [x] Description:
 
