@@ -14,6 +14,7 @@ The six possible exploits are:
 * Session Hijacking/Fixation
 
 
+
 ## Blue
 
 Vulnerability #1: SQL Injection (SQLi)
