@@ -19,8 +19,9 @@ The six possible exploits are:
 
 Vulnerability 1: SQL Injection (SQLi)
 
-- [x]Description:
+- [x] Description:
 
+- [x] GIF Walkthrough:
 <img src="blue_SQLI_vulnerability.gif">
 
 
