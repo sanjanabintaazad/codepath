@@ -27,8 +27,9 @@ Vulnerability 1: SQL Injection (SQLi)
 
 Vulnerability 2: Session Hijacking
 
-Description:
+- [x] Description:
 
+- [x] GIF Walkthrough:
 <img src="blue_SessionHijacking_vulnerability.gif">
 
 
@@ -36,15 +37,17 @@ Description:
 
 Vulnerability 1: Cross-Site Scripting (XSS)
 
-Description:
+- [x] Description:
 
+- [x] GIF Walkthrough:
 <img src="green_XSS_vulnerability.gif">
 
 
 Vulnerability 2: Username Enumeration
 
-Description:
+- [x] Description:
 
+- [x] GIF Walkthrough:
 <img src="green_UsernameEnumeration_vulnerability.gif">
 
 
@@ -52,8 +55,9 @@ Description:
 
 Vulnerability 1: Insecure Direct Object Reference (IDOR)
 
-Description:
+- [x] Description:
 
+- [x] GIF Walkthrough:
 <img src="red_IDOR_vulnerability.gif">
 
 
