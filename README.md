@@ -45,6 +45,7 @@ The six possible exploits are:
 
 - [x] Description:
   - By putting the following malicious javascript in the feedback section under the "Contact" page and submitting it, an XSS exploit has been created.
+ 
  `<script>alert('SANJANA AZAD found the XSS!');</script>`
   - When an user is logged in and goes to view the feedbacks, the user will see all the XSS being executed.
 
