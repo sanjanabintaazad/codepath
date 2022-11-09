@@ -64,7 +64,18 @@ The six possible exploits are:
 
 ## Red
 
-#### Vulnerability 1: Insecure Direct Object Reference (IDOR)
+#### Vulnerability 1: Cross-Site Request Forgery (CSRF)
+
+- [x] Description:
+  - By creating a malicious HTML form and executing it will force to edit the salesperson's data such as their first name, last name, phone and email.
+  - The form execution will replace the salesperson's information whose id value has been given in the form.
+  - [Malicious HTML Form](https://github.com/sanjanabintaazad/codepath_homework/blob/pen_testing_live_targets/red_CSRF.html)
+
+- [x] GIF Walkthrough:
+<img src="red_CSRF_vulnerability.gif">
+
+
+#### Vulnerability 2: Insecure Direct Object Reference (IDOR)
 
 - [x] Description:
   - When logged in, we can see the salespersons who are not visible to the public.
@@ -74,16 +85,6 @@ The six possible exploits are:
 <img src="red_IDOR_vulnerability.gif">
 
 
-#### Vulnerability 2: Cross-Site Request Forgery (CSRF)
-
-- [x] Description:
-  - By creating a malicious HTML form and executing it will edit the salesperson's data such as their first name and last name.
-  - [Malicious HTML Form]()
-
-- [x] GIF Walkthrough:
-<img src="red_CSRF_vulnerability.gif">
-
-
 ## Notes
 
-Finding the vulnurabilities was a long process. To identify which color has the specific vulnerability and in which page, I had to perform the same error and trial process in all of the three targets. Executing the correct CSRF form was a bit challenging.
+Finding the vulnurabilities was a long process. To identify which color has the specific vulnerability and in which page, I had to perform the same error and trial process in all of the three targets. Executing the correct CSRF form was a bit challenging. I had to do it in KALI VM as it was not working on windows. Later on I discovered that I need to disable firewall for windows to get the CSRF form run properly in windows.
