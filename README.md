@@ -20,7 +20,7 @@ The six possible exploits are:
 #### Vulnerability 1: SQL Injection (SQLi)
 
 - [x] Description:
-  - If we put `'` in the id parameter of the URL and get "database query failed" message, then the webpage is vulnerable to SQL injection.
+  - If we put `'` in the id parameter of the URL and get "Database query failed" message, then the webpage is vulnerable to SQL injection.
   - Inserting `' OR SLEEP(5)=0--'` as the value of the id parameter in the URL causes the webpage to sleep for 5 seconds, then shows the information of the user with id=1 by default.
   - Inserting `10' AND SLEEP(5)=0--'` as the value of the id parameter in the URL causes the webpage to sleep for 5 seconds, then shows the information of the user with id=10. We can fetch any other user by changing the id value in the SQL code and make the webpage sleep for the time we want by changing the parameter's value in sleep function.
 
@@ -33,7 +33,7 @@ The six possible exploits are:
 - [x] Description:
   - For this exploit we need two different web browsers, let one browser be the attacker and the other the target.
   - Log the target in first. By loading PHP script `public/hacktools/change_session_id.php` while logged in, we can find out the current session ID.
-  - open a new session in the attacker browser which is not logged in. Using the same PHP script we can change the attacker's session ID to the target's session ID. Now the attacker browser has unauthenticated access to the logged in session.
+  - Open a new session in the attacker browser which is not logged in. Using the same PHP script we can change the attacker's session ID to the target's session ID. Now the attacker browser has unauthenticated access to the logged in session.
 
 - [x] GIF Walkthrough:
 <img src="blue_SessionHijacking_vulnerability.gif">
