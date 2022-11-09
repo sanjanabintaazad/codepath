@@ -31,6 +31,9 @@ The six possible exploits are:
 #### Vulnerability 2: Session Hijacking
 
 - [x] Description:
+  - For this exploit we need two different web browsers, let one browser be the attacker and the other the target.
+  - Log the target in first. By loading PHP script `public/hacktools/change_session_id.php` while logged in, we can find out the current session ID.
+  - open a new session in the attacker browser which is not logged in. Using the same PHP script we can change the attacker's session ID to the target's session ID. Now the attacker browser has unauthenticated access to the logged in session.
 
 - [x] GIF Walkthrough:
 <img src="blue_SessionHijacking_vulnerability.gif">
@@ -41,6 +44,9 @@ The six possible exploits are:
 #### Vulnerability 1: Cross-Site Scripting (XSS)
 
 - [x] Description:
+  - By putting the following malicious javascript in the feedback section under the Contact page and submitting it, an XSS exploit has been created.
+ `<script>alert('SANJANA AZAD found the XSS!');</script>`
+  - When an user is logged in and goes to view the feedbacks, the user will see all the XSS being executed.
 
 - [x] GIF Walkthrough:
 <img src="green_XSS_vulnerability.gif">
@@ -49,6 +55,8 @@ The six possible exploits are:
 #### Vulnerability 2: Username Enumeration
 
 - [x] Description:
+  - By using the existing username "jmonroe99" and "pperson" as tests, we found out that if a username does exist and entered but with the wrong password, the following sentence is bolded: Log in was unsuccessful.
+  - If the user name does not exist, the error message will not be bolded: Log in was unsuccessful.
 
 - [x] GIF Walkthrough:
 <img src="green_UsernameEnumeration_vulnerability.gif">
