@@ -77,7 +77,7 @@ The six possible exploits are:
 #### Vulnerability 2: Cross-Site Request Forgery (CSRF)
 
 - [x] Description:
-  - By creating a malicious HTML form, we can edit the salesperson's data such as their first and last name.
+  - By creating a malicious HTML form and executing it will edit the salesperson's data such as their first name and last name.
   - [Malicious HTML Form]()
 
 - [x] GIF Walkthrough:
@@ -86,4 +86,4 @@ The six possible exploits are:
 
 ## Notes
 
-Finding the vulnurabilities was a long process. To identify which color has the specific vulnerability and in which page, I had to perform the same error and trial process in all of the three targets. 
+Finding the vulnurabilities was a long process. To identify which color has the specific vulnerability and in which page, I had to perform the same error and trial process in all of the three targets. Executing the correct CSRF form was a bit challenging.
