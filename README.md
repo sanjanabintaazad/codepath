@@ -55,7 +55,7 @@ The six possible exploits are:
 #### Vulnerability 2: Username Enumeration
 
 - [x] Description:
-  - By using the existing username "jmonroe99" and "pperson" as tests, we found out that if a username exists and entered but with the wrong password, an error message will be displayed which is bolded: **Log in was unsuccessful**.
+  - By using the existing username "jmonroe99" and "pperson" as tests, we found out that if a username exists and entered but with the wrong password, an error message will be displayed which will be bolded: **Log in was unsuccessful**.
   - If the username does not exist, the error message will not be bolded: Log in was unsuccessful.
 
 - [x] GIF Walkthrough:
