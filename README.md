@@ -67,7 +67,7 @@ The six possible exploits are:
 #### Vulnerability 1: Cross-Site Request Forgery (CSRF)
 
 - [x] Description:
-  - By creating a malicious HTML form and executing it will force to edit the salesperson's data such as their first name, last name, phone and email.
+  - By creating a malicious HTML form and executing it will force to edit the salesperson's data such as first name, last name, phone and email.
   - The form execution will replace the salesperson's information whose id value has been given in the form.
   - [Malicious HTML Form](https://github.com/sanjanabintaazad/codepath_homework/blob/pen_testing_live_targets/red_CSRF.html)
 
