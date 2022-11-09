@@ -44,7 +44,7 @@ The six possible exploits are:
 #### Vulnerability 1: Cross-Site Scripting (XSS)
 
 - [x] Description:
-  - By putting the following malicious javascript in the feedback section under the Contact page and submitting it, an XSS exploit has been created.
+  - By putting the following malicious javascript in the feedback section under the "Contact" page and submitting it, an XSS exploit has been created.
  `<script>alert('SANJANA AZAD found the XSS!');</script>`
   - When an user is logged in and goes to view the feedbacks, the user will see all the XSS being executed.
 
@@ -55,8 +55,8 @@ The six possible exploits are:
 #### Vulnerability 2: Username Enumeration
 
 - [x] Description:
-  - By using the existing username "jmonroe99" and "pperson" as tests, we found out that if a username does exist and entered but with the wrong password, an error message will be displayed which is bolded: **Log in was unsuccessful**.
-  - If the user name does not exist, the error message will not be bolded: Log in was unsuccessful.
+  - By using the existing username "jmonroe99" and "pperson" as tests, we found out that if a username exists and entered but with the wrong password, an error message will be displayed which is bolded: **Log in was unsuccessful**.
+  - If the username does not exist, the error message will not be bolded: Log in was unsuccessful.
 
 - [x] GIF Walkthrough:
 <img src="green_UsernameEnumeration_vulnerability.gif">
@@ -67,11 +67,23 @@ The six possible exploits are:
 #### Vulnerability 1: Insecure Direct Object Reference (IDOR)
 
 - [x] Description:
+  - When logged in, we can see the salespersons who are not visible to the public.
+  - When not logged in, we can go to the "Find a Salesperson" page, select any salesperson and change the value of the id parameter in the URL. Thus we can gain access to the information of the salespersons that are not visible to public.
 
 - [x] GIF Walkthrough:
 <img src="red_IDOR_vulnerability.gif">
 
 
+#### Vulnerability 2: Cross-Site Request Forgery (CSRF)
+
+- [x] Description:
+  - By creating a malicious HTML form, we can edit the salesperson's data such as their first and last name.
+  - [Malicious HTML Form]()
+
+- [x] GIF Walkthrough:
+<img src="red_CSRF_vulnerability.gif">
+
+
 ## Notes
 
-Describe any challenges encountered while doing the work
+Finding the vulnurabilities was a long process. To identify which color has the specific vulnerability and in which page, I had to perform the same error and trial process in all of the three targets. 
