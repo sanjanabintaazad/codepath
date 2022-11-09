@@ -87,4 +87,4 @@ The six possible exploits are:
 
 ## Notes
 
-Finding the vulnurabilities was a long process. To identify which color has the specific vulnerability and in which page, I had to perform the same error and trial process in all of the three targets. Executing the correct CSRF form was a bit challenging. I had to do it in KALI VM as it was not working on windows. Later on I discovered that I need to disable firewall for windows to get the CSRF form run properly in windows.
+Finding the vulnurabilities was a long process. To identify which color has the specific vulnerability and in which page, I had to perform the same trial and error process in all of the three targets. Executing the correct CSRF form was a bit challenging. I had to do it in KALI VM as it was not working on windows. Later on I discovered that I need to disable firewall for windows to get the CSRF form run properly in windows.
