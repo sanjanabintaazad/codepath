@@ -7,21 +7,22 @@
 ### MHN-Admin Deployment (Required)
 
 - [x] **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
-- I deployed MHN-Admin in Kali by creating VM instances & using Google Cloud Services with the following honeypots: Dionaea, Snort & p0f.
-- At first I created a google cloud account and then created a project.  
+* I deployed MHN-Admin in Kali by creating VM instances & using Google Cloud Services with the following honeypots: Dionaea, Snort & p0f.
+* At first I created a google cloud account and then created a project.  
 
-- [x] GIF Walkthrough
+- [x] GIF Walkthrough:
 <img src="mhn-admin.gif">
 
 ### Dionaea Honeypot Deployment (Required)
 
-**Summary:** Briefly in your own words, what does dionaea do?
+- [x] **Summary:** Briefly in your own words, what does dionaea do?
 
+- [x] GIF Walkthrough:
 <img src="dionaea-honeypot.gif">
 
 ### Database Backup (Required) 
 
-**Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
+- [x] **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
 
@@ -29,14 +30,16 @@
 
 #### Snort Honeypot
 
-**Summary:** What does this honeypot simulate and do for a security researcher?
+- [x] **Summary:** What does this honeypot simulate and do for a security researcher?
 
+- [x] GIF Walkthrough:
 <img src="snort-honeypot.gif">
 
 #### p0f Honeypot
 
-**Summary:** What does this honeypot simulate and do for a security researcher?
+- [x] **Summary:** What does this honeypot simulate and do for a security researcher?
 
+- [x] GIF Walkthrough:
 <img src="p0f-honeypot.gif">
 
 
