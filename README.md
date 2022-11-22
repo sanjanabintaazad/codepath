@@ -4,7 +4,7 @@
 
 **Objective:** Create a honeynet using MHN-Admin. Present your findings as if you were requested to give a brief report of the current state of Internet security. Assume that your audience is a current employer who is questioning why the company should allocate anymore resources to the IT security team.
 
-### MHN-Admin Deployment (Required)
+## MHN-Admin Deployment (Required)
 
 - [x] **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
 * I deployed MHN-Admin in Kali by creating VM instances & using Google Cloud Services with the following honeypots: Dionaea, Snort & p0f.
@@ -13,29 +13,29 @@
 - [x] **GIF Walkthrough:**
 <img src="mhn-admin.gif">
 
-### Dionaea Honeypot Deployment (Required)
+## Dionaea Honeypot Deployment (Required)
 
 - [x] **Summary:** Briefly in your own words, what does dionaea do?
 
 - [x] **GIF Walkthrough:**
 <img src="dionaea-honeypot.gif">
 
-### Database Backup (Required) 
+## Database Backup (Required) 
 
 - [x] **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
 
-### Deploying Additional Honeypot(s) (Optional)
+## Deploying Additional Honeypot(s) (Optional)
 
-#### 1. Snort Honeypot
+### 1. Snort Honeypot
 
 - [x] **Summary:** What does this honeypot simulate and do for a security researcher?
 
 - [x] **GIF Walkthrough:**
 <img src="snort-honeypot.gif">
 
-#### 2. p0f Honeypot
+### 2. p0f Honeypot
 
 - [x] **Summary:** What does this honeypot simulate and do for a security researcher?
 
