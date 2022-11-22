@@ -10,7 +10,7 @@
 * I deployed MHN-Admin in Kali by creating VM instances & using Google Cloud Services with the following honeypots: Dionaea, Snort & p0f.
 * At first I created a google cloud account and then created a project.  
 
-- [x] GIF Walkthrough:
+- [x] **GIF Walkthrough:
 <img src="mhn-admin.gif">
 
 ### Dionaea Honeypot Deployment (Required)
@@ -28,14 +28,14 @@
 
 ### Deploying Additional Honeypot(s) (Optional)
 
-#### Snort Honeypot
+#### 1. Snort Honeypot
 
 - [x] **Summary:** What does this honeypot simulate and do for a security researcher?
 
 - [x] GIF Walkthrough:
 <img src="snort-honeypot.gif">
 
-#### p0f Honeypot
+#### 2. p0f Honeypot
 
 - [x] **Summary:** What does this honeypot simulate and do for a security researcher?
 
