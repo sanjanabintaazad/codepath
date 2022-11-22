@@ -50,4 +50,4 @@ SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
 
 ## Notes
 
-Describe any challenges encountered while doing the assignment.
+I initially tried installing all of these honeypots under kali 2022.3 version but realized the cowrie VM wasn't returning anything. Further inspection revealed that there are currently some deployment errors on this version of kali which is not allowing the cowrie VM. I did not wanted to harm the work I have done so far. So I killed the VM and tried the pOf VM, which resulted in success.
