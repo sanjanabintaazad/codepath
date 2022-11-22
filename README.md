@@ -6,11 +6,11 @@
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
-- [x] I deployed MHN-Admin in Kali by creating VM instances & using Google Cloud Services with the following honeypots: Dionaea, Snort & p0f.
-- [x] At first I created a google cloud account and then created a project.
-- [x]  
+- [x] **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+- I deployed MHN-Admin in Kali by creating VM instances & using Google Cloud Services with the following honeypots: Dionaea, Snort & p0f.
+- At first I created a google cloud account and then created a project.  
 
+- [x] GIF Walkthrough
 <img src="mhn-admin.gif">
 
 ### Dionaea Honeypot Deployment (Required)
