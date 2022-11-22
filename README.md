@@ -20,6 +20,7 @@
 ## Dionaea Honeypot Deployment (Required)
 
 - [x] **Summary:** Briefly in your own words, what does dionaea do?
+  * kasja
 
 - [x] **GIF Walkthrough:**
 <img src="dionaea-honeypot.gif">
