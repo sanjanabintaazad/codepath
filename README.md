@@ -6,8 +6,8 @@
 
 ## MHN-Admin Deployment (Required)
 
-- [x] **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
-* I deployed MHN-Admin in Kali by creating VM instances & using Google Cloud Services with the following honeypots: Dionaea, Snort & p0f.
+- [x] **Summary:**
+* I deployed MHN-Admin in Kali by creating VM instances & using Google Cloud Platform (GCP) with the following honeypots: Dionaea, Snort & p0f.
 * At first I created a google cloud account and then created a project.
 * Then I initialized gcloud in the kali terminal and computed specific firewall rules to allow HTTP traffic and all ports from anywhere.
 * Then I created the mhn-admin VM, took a note of the external IP address and established SSH access to the VM.
