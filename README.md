@@ -46,8 +46,9 @@
 - [x] **Summary:**
 * Snort is an open source intrusion prevention system capable of real-time traffic analysis and packet logging.
 * Like the previous honeypot, I created the VM honeypot-2, established SSH access to the VM, executed the deploy command for snort. I performed an attack using nmap, passing it the external IP of the snort honeypot VM. As a result, my IP address is listed with several port scan records which is the evidence that the honeypot intercepted my attack.
-* Snort honeypot uses the TCP protocol
+* Snort honeypot uses the TCP protocol.
 * This honeypot is attacked less frequently than others.
+* Most of the payloads or signatures samples were collected by this sensor.
 * Snort has three primary functional modes. It can be used as-
   * a packet sniffer like tcpdump
   * a packet logger (useful for network traffic debugging, etc)
