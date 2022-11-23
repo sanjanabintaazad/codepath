@@ -44,11 +44,18 @@ network. The main goal of Dionaea honeypot deployment is gaining a copy of malwa
 ### 1. Snort Honeypot
 
 - [x] **Summary:**
-* Snort is an open source intrusion prevention system capable of real-time traffic analysis and packet logging.
-* To deploy snort honeypot, first I created the VM for snort honeypot called honeypot-2 make note of the external IP and established SSH access to the VM where I executed the deploy command for snort that I copied from the MHN admin console.
-* Now that the snort honeypot is listed in the sensor, I performed an attack using nmap, passing it the external IP of the snort honeypot VM. As a result in the Attacks page of the MHN Admin console, I was able to see my IP address listed with several port scan records which is the evidence that the honeypot intercepted my attack.
+* Snort is an open source network intrusion detection and prevention system. It is capable of performing real-time traffic analysis, alerting, blocking and packet logging on IP networks.
+* Like the previous honeypot, I created the VM honeypot-2, established SSH access to the VM, executed the deploy command for snort. I performed an attack using nmap, passing it the external IP of the snort honeypot VM. As a result, my IP address is listed with several port scan records which is the evidence that the honeypot intercepted my attack.
 * Snort honeypot uses the TCP protocol
 * This honeypot is attacked less frequently than others.
+* Snort has three primary functional modes. It can be used as-
+  * a packet sniffer like tcpdump(1)
+	* a packet logger (useful for network traffic debugging, etc)
+	* a full blown network intrusion detection and prevention system.
+* It utilizes a combination of protocol analysis and pattern matching in order to detect a anomalies, misuse and attacks.
+* Snort is capable of detecting and responding in real-time, sending alerts, performing session sniping, logging packets or dropping sessions/packets when deployed in-line.
+
+* Snort uses a flexible rules language to describe activity that can be considered malicious or anomalous as well as an analysis engine that incorporates a modular plugin architecture.
 
 - [x] **GIF Walkthrough:**
 <img src="snort-honeypot.gif">
@@ -57,7 +64,7 @@ network. The main goal of Dionaea honeypot deployment is gaining a copy of malwa
 
 - [x] **Summary:**
 * p0f is a tool that utilizes an array of sophisticated, purely passive traffic fingerprinting mechanisms to identify the players behind any incidental TCP/IP communications (often as little as a single normal SYN) without interfering in any way.
-* Same as the other honeypots performed before, I created the VM honeypot-3, established SSH access to the VM, deploy command for pOf. I performed an attack using nmap, passing it the external IP of the pOf honeypot VM. As a result, my IP address is listed with several port scan records which is the evidence that the honeypot intercepted my attack.
+* Same as the other honeypots performed before, I created the VM honeypot-3, established SSH access to the VM, executed the deploy command for pOf. I performed an attack using nmap, passing it the external IP of the pOf honeypot VM. As a result, my IP address is listed with several port scan records which is the evidence that the honeypot intercepted my attack.
 * pOf honeypot uses the pcap protocol.
 * Highly scalable and extremely fast identification of the operating system and software on both endpoints of a vanilla TCP connection, automated detection of connection sharing / NAT, load balancing and application-level proxying setups.
 * Detects of dishonest clients / servers that forge declarative statements such as X-Mailer or User-Agent.
