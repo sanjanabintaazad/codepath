@@ -12,7 +12,7 @@
 * Then I initialized gcloud in the kali terminal and computed specific firewall rules to allow HTTP traffic and all ports from anywhere.
 * Then I created the mhn-admin VM, took a note of the external IP address and established SSH access to the VM.
 * After establishing SSH access, I installed MHN through the mhn-Admin VM and chose a super user email & password.
-* Finally I was able to load the external IP in a browser and login to the admin console via the "superuser" values. I was also able to see the mhn-admin VM instances status through the google cloud web console.
+* Finally I was able to load the external IP in a browser and login to the MHN admin console via the "superuser" values. I was also able to see the mhn-admin VM instances status through the google cloud web console.
 
 - [x] **GIF Walkthrough:**
 <img src="mhn-admin.gif">
@@ -20,7 +20,9 @@
 ## Dionaea Honeypot Deployment (Required)
 
 - [x] **Summary:** Briefly in your own words, what does dionaea do?
-  * kasja
+* First I created the firewall rule to allow incoming TCP and UDP traffic on all ports for honeypot sensors, created the VM for dionaea honeypot called honeypot-1 make note of the external IP and established SSH access to the VM where I executed the deploy command for dionaea that I copied from the MHN admin console.
+* Now that the dionaea honeypot is listed in the sensor, I performed an attack using nmap, passing it the external IP of the dionaea honeypot VM. As a result multiple ports were opened which Dionaea was using to attract attackers.
+* After the attack the MHN Admin console in your browser, and from the top nav, choose Attacks. If everything goes well, you should see your IP address listed with several port scan records. This means the honeypot intercepted your attack.
 
 - [x] **GIF Walkthrough:**
 <img src="dionaea-honeypot.gif">
