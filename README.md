@@ -57,9 +57,12 @@ network. The main goal of Dionaea honeypot deployment is gaining a copy of malwa
 
 - [x] **Summary:**
 * p0f is a tool that utilizes an array of sophisticated, purely passive traffic fingerprinting mechanisms to identify the players behind any incidental TCP/IP communications (often as little as a single normal SYN) without interfering in any way.
-* Same as the other honeypots performed before, I created the VM for pOf honeypot called honeypot-3 make note of the external IP and established SSH access to the VM where I executed the deploy command for pOf that I copied from the MHN admin console.
-* Now that the pOf honeypot is listed in the sensor, I performed an attack using nmap, passing it the external IP of the pOf honeypot VM. As a result in the Attacks page of the MHN Admin console, I was able to see my IP address listed with several port scan records which is the evidence that the honeypot intercepted my attack.
-* pOf honeypot uses the pcap protocol
+* Same as the other honeypots performed before, I created the VM honeypot-3, established SSH access to the VM, deploy command for pOf. I performed an attack using nmap, passing it the external IP of the pOf honeypot VM. As a result, my IP address is listed with several port scan records which is the evidence that the honeypot intercepted my attack.
+* pOf honeypot uses the pcap protocol.
+* Highly scalable and extremely fast identification of the operating system and software on both endpoints of a vanilla TCP connection, automated detection of connection sharing / NAT, load balancing and application-level proxying setups.
+* Detects of dishonest clients / servers that forge declarative statements such as X-Mailer or User-Agent.
+* The tool can be operated in the foreground or as a daemon and offers a simple real-time API for third-party components that wish to obtain additional information about the actors they are talking to.
+* Common uses for p0f include reconnaissance during penetration tests; routine network monitoring; detection of unauthorized network interconnects in corporate environments; providing signals for abuse-prevention tools and miscellanous forensics.
 
 - [x] **GIF Walkthrough:**
 <img src="p0f-honeypot.gif">
