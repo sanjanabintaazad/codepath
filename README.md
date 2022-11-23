@@ -43,14 +43,20 @@ network. The main goal of Dionaea honeypot deployment is gaining a copy of malwa
 
 ### 1. Snort Honeypot
 
-- [x] **Summary:** What does this honeypot simulate and do for a security researcher?
+- [x] **Summary:**
+* First I created the VM for snort honeypot called honeypot-2 make note of the external IP and established SSH access to the VM where I executed the deploy command for snort that I copied from the MHN admin console.
+* Now that the snort honeypot is listed in the sensor, I performed an attack using nmap, passing it the external IP of the snort honeypot VM. As a result in the Attacks page of the MHN Admin console, I was able to see my IP address listed with several port scan records which is the evidence that the honeypot intercepted my attack.
+* Snort honeypot uses the TCP protocol
 
 - [x] **GIF Walkthrough:**
 <img src="snort-honeypot.gif">
 
 ### 2. p0f Honeypot
 
-- [x] **Summary:** What does this honeypot simulate and do for a security researcher?
+- [x] **Summary:**
+* Same as the other honeypots performed before, I created the VM for pOf honeypot called honeypot-3 make note of the external IP and established SSH access to the VM where I executed the deploy command for pOf that I copied from the MHN admin console.
+* Now that the pOf honeypot is listed in the sensor, I performed an attack using nmap, passing it the external IP of the pOf honeypot VM. As a result in the Attacks page of the MHN Admin console, I was able to see my IP address listed with several port scan records which is the evidence that the honeypot intercepted my attack.
+* pOf honeypot uses the pcap protocol
 
 - [x] **GIF Walkthrough:**
 <img src="p0f-honeypot.gif">
