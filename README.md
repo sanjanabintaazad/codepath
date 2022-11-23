@@ -48,7 +48,7 @@
 * Like the previous honeypot, I created the VM honeypot-2, established SSH access to the VM, executed the deploy command for snort. I performed an attack using nmap, passing it the external IP of the snort honeypot VM. As a result, my IP address is listed with several port scan records which is the evidence that the honeypot intercepted my attack.
 * Snort honeypot uses the TCP protocol.
 * This honeypot is attacked less frequently than others.
-* Most of the payloads or signatures samples were collected by this sensor.
+* Most of the payloads or signature samples were collected by this sensor.
 * Snort has three primary functional modes. It can be used as-
   * a packet sniffer like tcpdump
   * a packet logger (useful for network traffic debugging, etc)
@@ -66,8 +66,8 @@
 * p0f is a tool that utilizes an array of sophisticated, purely passive traffic fingerprinting mechanisms to identify the players behind any incidental TCP/IP communications (often as little as a single normal SYN) without interfering in any way.
 * Same as the other honeypots performed before, I created the VM honeypot-3, established SSH access to the VM, executed the deploy command for pOf. I performed an attack using nmap, passing it the external IP of the pOf honeypot VM. As a result, my IP address is listed with several port scan records which is the evidence that the honeypot intercepted my attack.
 * pOf honeypot uses the pcap protocol.
-* Highly scalable and extremely fast identification of the operating system and software on both endpoints of a vanilla TCP connection, automated detection of connection sharing / NAT, load balancing and application-level proxying setups.
-* Detects of dishonest clients / servers that forge declarative statements such as X-Mailer or User-Agent.
+* It is known for highly scalable and extremely fast identification of the operating system and software on both endpoints of a vanilla TCP connection, automated detection of connection sharing / NAT, load balancing and application-level proxying setups.
+* It Detects dishonest clients / servers that forge declarative statements such as X-Mailer or User-Agent.
 * The tool can be operated in the foreground or as a daemon and offers a simple real-time API for third-party components that wish to obtain additional information about the actors they are talking to.
 * Common uses for p0f include reconnaissance during penetration tests; routine network monitoring; detection of unauthorized network interconnects in corporate environments; providing signals for abuse-prevention tools and miscellanous forensics.
 
