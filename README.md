@@ -20,14 +20,14 @@
 ## Dionaea Honeypot Deployment (Required)
 
 - [x] **Summary:** 
+* Dionaea is meant to be a nepenthes successor, embedding python as scripting language, using libemu to detect shellcodes, supporting ipv6 and tls.
 * First I created the firewall rule to allow incoming TCP and UDP traffic on all ports for honeypot sensors, created the VM for dionaea honeypot called honeypot-1 make note of the external IP and established SSH access to the VM where I executed the deploy command for dionaea that I copied from the MHN admin console.
 * Now that the dionaea honeypot is listed in the sensor, I performed an attack using nmap, passing it the external IP of the dionaea honeypot VM. As a result multiple ports were opened which Dionaea was using to attract attackers.
 * After the attack in the Attacks page of the MHN Admin console, I was able to see my IP address listed with several port scan records which is the evidence that the honeypot intercepted my attack.
 * Attacks from other IPs were also coming in at an alarming rate, from all over the world.
 * The most often attacked honeypot was dionaea. This is likely due to a wider attack surface.
 * No payload or signatures samples were collected by this sensor.
-* Dionaea is able to trap malware exploiting vulnerabilities exposed by services offered to the
-network. The main goal of Dionaea honeypot deployment is gaining a copy of malware which can be a known or an unknown malware attack.
+* Dionaea is able to trap malware exploiting vulnerabilities exposed by services offered to the network. The main goal of Dionaea honeypot deployment is gaining a copy of malware which can be a known or an unknown malware attack.
 
 - [x] **GIF Walkthrough:**
 <img src="dionaea-honeypot.gif">
@@ -44,17 +44,16 @@ network. The main goal of Dionaea honeypot deployment is gaining a copy of malwa
 ### 1. Snort Honeypot
 
 - [x] **Summary:**
-* Snort is an open source network intrusion detection and prevention system. It is capable of performing real-time traffic analysis, alerting, blocking and packet logging on IP networks.
+* Snort is an open source intrusion prevention system capable of real-time traffic analysis and packet logging.
 * Like the previous honeypot, I created the VM honeypot-2, established SSH access to the VM, executed the deploy command for snort. I performed an attack using nmap, passing it the external IP of the snort honeypot VM. As a result, my IP address is listed with several port scan records which is the evidence that the honeypot intercepted my attack.
 * Snort honeypot uses the TCP protocol
 * This honeypot is attacked less frequently than others.
 * Snort has three primary functional modes. It can be used as-
-  * a packet sniffer like tcpdump(1)
-	* a packet logger (useful for network traffic debugging, etc)
-	* a full blown network intrusion detection and prevention system.
+  * a packet sniffer like tcpdump
+  * a packet logger (useful for network traffic debugging, etc)
+  * a full blown network intrusion detection and prevention system.
 * It utilizes a combination of protocol analysis and pattern matching in order to detect a anomalies, misuse and attacks.
 * Snort is capable of detecting and responding in real-time, sending alerts, performing session sniping, logging packets or dropping sessions/packets when deployed in-line.
-
 * Snort uses a flexible rules language to describe activity that can be considered malicious or anomalous as well as an analysis engine that incorporates a modular plugin architecture.
 
 - [x] **GIF Walkthrough:**
