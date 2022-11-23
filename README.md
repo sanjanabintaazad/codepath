@@ -39,7 +39,7 @@
 * From the JSON file record we can get the unique identifier, protocol, the timestamp of the connection, the source IP, the source and destination ports, and what honeypot was scanned.
 * [session.json](https://github.com/sanjanabintaazad/codepath_homework/blob/Honeypot/session.json)
 
-## Deploying Additional Honeypot(s) (Optional)
+## Deploying Additional Honeypots (Optional)
 
 ### 1. Snort Honeypot
 
@@ -67,7 +67,7 @@
 * Same as the other honeypots performed before, I created the VM honeypot-3, established SSH access to the VM, executed the deploy command for pOf. I performed an attack using nmap, passing it the external IP of the pOf honeypot VM. As a result, my IP address is listed with several port scan records which is the evidence that the honeypot intercepted my attack.
 * pOf honeypot uses the pcap protocol.
 * It is known for highly scalable and extremely fast identification of the operating system and software on both endpoints of a vanilla TCP connection, automated detection of connection sharing / NAT, load balancing and application-level proxying setups.
-* It Detects dishonest clients / servers that forge declarative statements such as X-Mailer or User-Agent.
+* It detects dishonest clients / servers that forge declarative statements such as X-Mailer or User-Agent.
 * The tool can be operated in the foreground or as a daemon and offers a simple real-time API for third-party components that wish to obtain additional information about the actors they are talking to.
 * Common uses for p0f include reconnaissance during penetration tests; routine network monitoring; detection of unauthorized network interconnects in corporate environments; providing signals for abuse-prevention tools and miscellanous forensics.
 
