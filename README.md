@@ -19,7 +19,7 @@
 
 ## Dionaea Honeypot Deployment (Required)
 
-- [x] **Summary:** Briefly in your own words, what does dionaea do?
+- [x] **Summary:** 
 * First I created the firewall rule to allow incoming TCP and UDP traffic on all ports for honeypot sensors, created the VM for dionaea honeypot called honeypot-1 make note of the external IP and established SSH access to the VM where I executed the deploy command for dionaea that I copied from the MHN admin console.
 * Now that the dionaea honeypot is listed in the sensor, I performed an attack using nmap, passing it the external IP of the dionaea honeypot VM. As a result multiple ports were opened which Dionaea was using to attract attackers.
 * After the attack in the Attacks page of the MHN Admin console, I was able to see my IP address listed with several port scan records which is the evidence that the honeypot intercepted my attack.
@@ -34,9 +34,10 @@ network. The main goal of Dionaea honeypot deployment is gaining a copy of malwa
 
 ## Database Backup (Required) 
 
-- [x] **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
-
-*Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
+- [x] **Summary:**
+* MHN-Admin uses the MongoDB relational database management system for logging events. 
+* From the JSON file record we can get the unique identifier, protocol, the timestamp of the connection, the source IP, the source and destination ports, and what honeypot was scanned.
+* [session.json](https://github.com/sanjanabintaazad/codepath_homework/blob/Honeypot/session.json)
 
 ## Deploying Additional Honeypot(s) (Optional)
 
