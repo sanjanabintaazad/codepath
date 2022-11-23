@@ -22,7 +22,12 @@
 - [x] **Summary:** Briefly in your own words, what does dionaea do?
 * First I created the firewall rule to allow incoming TCP and UDP traffic on all ports for honeypot sensors, created the VM for dionaea honeypot called honeypot-1 make note of the external IP and established SSH access to the VM where I executed the deploy command for dionaea that I copied from the MHN admin console.
 * Now that the dionaea honeypot is listed in the sensor, I performed an attack using nmap, passing it the external IP of the dionaea honeypot VM. As a result multiple ports were opened which Dionaea was using to attract attackers.
-* After the attack the MHN Admin console in your browser, and from the top nav, choose Attacks. If everything goes well, you should see your IP address listed with several port scan records. This means the honeypot intercepted your attack.
+* After the attack in the Attacks page of the MHN Admin console, I was able to see my IP address listed with several port scan records which is the evidence that the honeypot intercepted my attack.
+* Attacks from other IPs were also coming in at an alarming rate, from all over the world.
+* The most often attacked honeypot was dionaea. This is likely due to a wider attack surface.
+* No payload or signatures samples were collected by this sensor.
+* Dionaea is able to trap malware exploiting vulnerabilities exposed by services offered to the
+network. The main goal of Dionaea honeypot deployment is gaining a copy of malware which can be a known or an unknown malware attack.
 
 - [x] **GIF Walkthrough:**
 <img src="dionaea-honeypot.gif">
