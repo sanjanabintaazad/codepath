@@ -75,6 +75,35 @@
 <img src="p0f-honeypot.gif">
 
 
+## Malware Capture and Identification (Optional)
+
+### 1. Malware: Win.Ransomware.Wanna-9769986-0
+
+- [x] **Summary:** 
+* I used the payload reports for dionaea, analyzed it, took a note of the hash file, search it through the VirusTotal website and found the malware.
+* Dionaea honeypot captured it.
+* It spreads by using Eternal Blue exploit in the Windows SMBv1 protocol which allows remote code execution if an attacker sends specially crafted messages. It has the capability to remotely compromised systems, encrypt files and infect other hosts. 
+
+md5 Hash: 5ffdc8b7825f72a04d5c97b6a4d80e7e
+sha1 Hash: f1afa3f2455319414ee08d08b95bd9ae9446ac20
+
+- [x] **GIF Walkthrough:**
+<img src="1-malware.gif">
+
+### 2. Malware: Win.Malware.Agent-6404242-0
+
+- [x] **Summary:** 
+* I used the payload reports for dionaea, analyzed it, took a note of the hash file, search it through the VirusTotal website and found the malware.
+* Dionaea honeypot captured it.
+* It reads terminal service related keys (often RDP related), the active computer name and the cryptographic machine GUID. It also detects a large number of ARP broadcast requests (network device lookup).
+
+md5 Hash: 996c2b2ca30180129c69352a3a3515e4
+sha1 Hash: 6d788a5a77719ef3157c409108909da2456bf996
+
+- [x] **GIF Walkthrough:**
+<img src="2-malware.gif">
+
+
 ## Notes
 
 At the beginning of this project, I tried to install GCP SDK on my local machine but it was not working properly in windows. After some failed attempt, I started to work with kali which was a lot easier. I initially tried installing all of these honeypots under kali 2022.3 version but realized the cowrie VM wasn't returning anything. Further inspection revealed that there are currently some deployment errors on this version of kali which is not allowing the cowrie VM. I did not wanted to harm the work I have done so far. So I killed the VM and tried the pOf VM, which resulted in success.
