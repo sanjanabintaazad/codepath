@@ -80,7 +80,7 @@
 ### 1. Malware: Win.Ransomware.Wanna-9769986-0
 
 - [x] **Summary:** 
-* I used the payload reports for dionaea, analyzed it, took a note of the hash file, search it through the VirusTotal website and found the malware.
+* I used the payload reports for dionaea, analyzed it, took a note of the hash file, search it through the [VirusTotal](https://www.virustotal.com/gui/home/search) website and found the malware.
 * Dionaea honeypot captured it.
 * It spreads by using Eternal Blue exploit in the Windows SMBv1 protocol which allows remote code execution if an attacker sends specially crafted messages. It has the capability to remotely compromised systems, encrypt files and infect other hosts. 
 * md5 Hash: 5ffdc8b7825f72a04d5c97b6a4d80e7e
@@ -92,7 +92,7 @@
 ### 2. Malware: Win.Malware.Agent-6404242-0
 
 - [x] **Summary:** 
-* I used the payload reports for dionaea, analyzed it, took a note of the hash file, search it through the VirusTotal website and found the malware.
+* I used the payload reports for dionaea, analyzed it, took a note of the hash file, search it through the [VirusTotal](https://www.virustotal.com/gui/home/search) website and found the malware.
 * Dionaea honeypot captured it.
 * It reads terminal service related keys (often RDP related), the active computer name and the cryptographic machine GUID. It also detects a large number of ARP broadcast requests (network device lookup).
 * md5 Hash: 996c2b2ca30180129c69352a3a3515e4
